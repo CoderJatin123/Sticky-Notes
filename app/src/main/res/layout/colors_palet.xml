@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:background="@drawable/background_cllours"
+
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Select Color"
+              android:textColor="@color/white"
+              android:layout_gravity="center"
+              android:textSize="20sp"
+              android:layout_margin="15dp"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+        <View
+                android:layout_width="50dp"
+                android:layout_margin="5dp"
+                android:layout_height="50dp"
+                android:background="@drawable/color_default"
+                android:id="@+id/cd"/>
+        <View android:layout_width="50dp"
+              android:layout_margin="5dp"
+              android:layout_height="50dp"
+              android:background="@drawable/color_blue"
+              android:id="@+id/cb"/>
+        <View android:layout_width="50dp"
+              android:layout_margin="5dp"
+              android:layout_height="50dp"
+              android:background="@drawable/color_green"
+              android:id="@+id/cg"/>
+
+        <View android:layout_width="50dp"
+              android:layout_margin="5dp"
+              android:layout_height="50dp"
+              android:background="@drawable/color_yellow"
+              android:id="@+id/cy"/>
+        <View android:layout_width="50dp"
+              android:layout_margin="5dp"
+              android:layout_height="50dp"
+              android:background="@drawable/color_red"
+              android:id="@+id/cr"/>
+        <View android:layout_width="50dp"
+              android:layout_margin="5dp"
+              android:layout_height="50dp"
+              android:background="@drawable/color_pink"
+              android:id="@+id/cp"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

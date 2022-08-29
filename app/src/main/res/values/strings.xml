@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sticky Notes</string>
+    <string name="colors">Colors</string>
+    <string name="text">Text</string>
+
+    <string name="blue_color">#45A0C1</string>
+    <string name="red_color">#E15B5B</string>
+    <string name="green_color">#74C668</string>
+    <string name="pink_color">#DB76B2</string>
+    <string name="default_color">#3E3E3E</string>
+    <string name="title">Title</string>
+    <string name="textview">TextView</string>
+</resources>

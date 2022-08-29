@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+
+        android:id="@+id/linearLayout_colors_sheet"
+        app:layout_constraintHeight="wrap_content"
+        android:layout_height="80dp"
+        android:background="@android:color/transparent">
+    <LinearLayout android:layout_width="match_parent"
+                  android:background="@color/Default"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:paddingTop="20dp"
+                  android:paddingBottom="10dp">
+        <View
+
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/sl_df"
+                android:layout_margin="5dp"
+                android:background="@drawable/color_default"
+        />
+        <View
+
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/sl_yellow"
+                android:layout_margin="5dp"
+                android:background="@drawable/color_yellow"
+        />
+        <View
+
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/sl_blue"
+                android:layout_margin="5dp"
+                android:background="@drawable/color_blue"
+        />
+        <View
+
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/sl_green"
+                android:layout_margin="5dp"
+                android:background="@drawable/color_green"
+        />
+        <View
+
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/sl_red"
+                android:layout_margin="5dp"
+                android:background="@drawable/color_red"
+        />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Select Color"
+                  android:textColor="@color/white"
+                  android:layout_gravity="center"
+                  android:fontFamily="@font/droid_sans"
+                  android:textSize="18sp"
+                  android:layout_margin="5dp"/>
+    </LinearLayout>
+</LinearLayout>
